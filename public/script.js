@@ -7,7 +7,7 @@ const forecastVal = document.querySelector(".forecast");
 weatherForm.addEventListener("submit", (e) => {
 	const location = search.value;
 
-	fetch(`http://localhost:3000/weather?address=${location}`)
+	fetch(`/weather?address=${location}`)
 		.then((res) => res.json())
 		.then((data) => {
 			if (data.error) {

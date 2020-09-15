@@ -6,6 +6,7 @@ const foreCast = require("./utils/foreCast");
 
 //*** Express library exports a single function ***
 const app = express();
+const port = process.env.PORT || 3000;
 
 //*** Creating paths for express config ***
 const publicPath = path.join(__dirname, "../public");
@@ -119,4 +120,4 @@ app.get("*", (req, res) =>
 //* Start the server
 
 //* This task will run continuously, it won't stop unless we stropped it, it will be up and running listening and processing new requests
-app.listen(3000, () => console.log("Server is up on the port 3000"));
+app.listen(port, () => console.log(`Server is up on the port ${port}`));
