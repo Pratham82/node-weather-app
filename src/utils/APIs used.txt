@@ -1,0 +1,7 @@
+//* Geocoding service
+const geoUrl = `https://api.mapbox.com/geocoding/v5/mapbox.places/new%20york.json?access_token=${process.env.ACCESS_TOKEN}`;
+
+
+//* One call API
+// const fs = require("fs");
+const openAPI = `https://api.openweathermap.org/data/2.5/onecall?lat=19.140512&lon=72.842155&units=metric&appid=${process.env.API_KEY}`;

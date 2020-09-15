@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+    {{>headers}}
+
+    <div class="card">
+
+        <p class="location res"></p>
+        <p class="forecast res"></p>
+        <form>
+            <input type="text" class="inputStyle" placeholder="add a location">
+            <br>
+            <button class="btn-style">Get weather</button>
+        </form>
+    </div>
+
+    {{>footer}}
+    <script src="script.js"></script>
+</body>
+
+</html>
