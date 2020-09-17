@@ -1,7 +1,7 @@
 # node-weather-app
 This is weather application with nodejs backend server which is serving to handlebars template
 
-I have create this application with node.js as the backend server. I've used two API for getting the weather inforamtion. First one is mapbox API which finds the latitude and longitudes of the entered locaiton. Passing the lat lon location to the OpenweatherAPI for finding the weather information. The node.js API is served on the the custom endpoints  on which the frontend can make use of the API and get information. Front end is served by handle bar templates.
+I have created this application with node.js as the backend server. I've used two APIs for getting the weather inforamtion. First one is mapbox API which finds the latitude and longitude of the entered locaiton. Then passing the lat, lon location to the OpenweatherAPI for finding the weather information. The node.js API is served on the the custom endpoints on which the frontend can make use of the API and get weather information. Front end is served by handlebar templates.
 
 ![](weather-1.jpg)
 #### Features:
